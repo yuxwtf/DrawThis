@@ -4,3 +4,7 @@ DrawThis, using Craiyon AI, formerly DALL-E mini, is an AI model that can draw i
 # How To Use
 
 - python main.py
+
+# API
+
+> credit to *craiyon.com* for ai draw
