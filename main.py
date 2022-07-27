@@ -1,6 +1,7 @@
 import os
 import requests
 import base64
+import ascii2text
 
 def generate(prompt): # using craiyon ia private api
     req = requests.post('https://backend.craiyon.com/generate', json={"prompt": str(prompt)})
