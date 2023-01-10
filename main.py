@@ -2,7 +2,7 @@ import os
 import requests
 import base64
 
-def generate(prompt): # using craiyon ia private api
+def generate(prompt): # using craiyon api 
     req = requests.post('https://backend.craiyon.com/generate', json={"prompt": str(prompt)})
     with open("result.png", "wb") as fh:
         fh.write(base64.b64decode(req.json()['images'][0]))
